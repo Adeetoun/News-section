@@ -66,6 +66,9 @@ button{
 .nav-bar .menu{
     display: none;
 }
+.header .nav-bar .dropdown{
+    display: none;
+}
 ul{
     display: flex;
     list-style: none;
@@ -149,9 +152,11 @@ ul li:active{
 }
 @media(max-width: 768px) {
     .container{
-        width: 100%;
-        padding: 5px;
-        margin: 5px;
+        width: auto;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
     .header{
         display: flex;
@@ -163,29 +168,29 @@ ul li:active{
  .header .nav-bar .menu{
     display: block;
     position: relative;
-    left: 150%;
+    left: 100%;
     margin-top: 10px;
  }
- .header .nav-bar .menu ul{
+ .header .nav-bar .dropdown{
     display: block;
     line-height: 1.2;
     border: 1px solid #fff;
     background-color: hsl(0, 0%, 100%);
-    padding: 25px;
-    margin:  10px;
+    padding: 10px;
+    margin: 10px;
     height: 120vh;
-    width: 90%;
+    width: 80%;
     position: relative;
-    right: 100%;
-    transform: translate(-10%, -10%);
+    left: 72%;
+    transform: translate(-20%, -20%);
     display: none;
  }
- .header .nav-bar .menu ul li{
-    text-align:left;
+ .header .nav-bar .dropdown ul{
     position: relative;
-    top: 30%;
+    top: 20%;
+    display: block;
  }
- .header .nav-bar .menu ul img{
+ .header .nav-bar .dropdown img{
     margin-top: 10px;
     position: relative;
     left: 60%;
@@ -217,7 +222,7 @@ ul li:active{
 }
 button{
     position: absolute;
-    left: 2%;
+    left: 0.5%;
 }
 .grid .grid-item2{
     margin-top: 20px;
