@@ -176,7 +176,7 @@ ul li:active{
     height: 120vh;
     width: 90%;
     position: relative;
-    right: 35%;
+    right: 100%;
     transform: translate(-10%, -10%);
     display: none;
  }
