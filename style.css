@@ -149,9 +149,8 @@ ul li:active{
 }
 @media(max-width: 768px) {
     .container{
-        padding: 10px;
-        margin: 10px;
         width: 100%;
+        box-sizing: border-box;
     }
     .header{
         display: flex;
@@ -217,7 +216,7 @@ ul li:active{
 }
 button{
     position: absolute;
-    left: 2%;
+    left: 10%;
 }
 .grid .grid-item2{
     margin-top: 20px;
