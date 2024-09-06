@@ -179,9 +179,9 @@ ul li:active{
     padding: 10px;
     margin: 10px;
     height: 120vh;
-    width: 80%;
+    width: 100%;
     position: relative;
-    left: 72%;
+    left: 30%;
     transform: translate(-20%, -20%);
     display: none;
  }
