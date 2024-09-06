@@ -181,7 +181,7 @@ ul li:active{
     height: 120vh;
     width: 100%;
     position: relative;
-    left: 15%;
+    left: 30%;
     transform: translate(-20%, -20%);
     display: none;
  }
