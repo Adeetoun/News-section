@@ -171,12 +171,12 @@ ul li:active{
     border: 1px solid #fff;
     background-color: hsl(0, 0%, 100%);
     padding: 25px;
-    margin: 10px;
+    margin:  10px;
     height: 120vh;
-    width: 150px;
+    width: 90%;
     position: relative;
     right: 35%;
-    transform: translate(-20%, -20%);
+    transform: translate(-10%, -10%);
     display: none;
  }
  .header .nav-bar .menu ul li{
@@ -188,7 +188,7 @@ ul li:active{
     margin-top: 10px;
     position: relative;
     left: 60%;
-    top: 20%;
+    top: 10%;
  }
  .grid{
     display: flex;
