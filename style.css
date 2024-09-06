@@ -189,7 +189,7 @@ ul li:active{
     margin-top: 10px;
     position: relative;
     left: 80%;
-    top: 10%;
+    top: 20%;
  }
  .grid{
     display: flex;
